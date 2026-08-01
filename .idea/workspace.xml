@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ad26e0a-da26-48d9-981f-2028f86e42a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Chess/Chess.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/chess_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python.framework/Python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python.framework/Resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python.framework/Versions/3.14/Python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python.framework/Versions/3.14/Resources/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python.framework/Versions/3.14/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Python.framework/Versions/Current" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/Tk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/_tcl_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/_tk_data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/libcrypto.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/libssl.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/libzstd.1.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3.14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_asyncio.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_bisect.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_blake2.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_bz2.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_codecs_cn.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_codecs_hk.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_codecs_iso2022.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_codecs_jp.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_codecs_kr.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_codecs_tw.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_csv.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_ctypes.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_decimal.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_elementtree.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_hashlib.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_heapq.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_hmac.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_interpqueues.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_interpreters.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_json.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_lzma.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_md5.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_multibytecodec.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_multiprocessing.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_pickle.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_posixshmem.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_posixsubprocess.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_queue.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_random.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_scproxy.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_sha1.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_sha2.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_sha3.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_socket.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_ssl.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_statistics.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_struct.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_tkinter.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/_zstd.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/array.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/binascii.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/fcntl.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/grp.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/math.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/mmap.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/pyexpat.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/resource.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/select.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/unicodedata.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/python3__dot__14/lib-dynload/zlib.cpython-314-darwin.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/sounds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/CITATION.cff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/Copying.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/Top CPU Contributors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/scripts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/stockfish-macos-x86-64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/stockfish/wiki" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Frameworks/tcl8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/MacOS/Chess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/Python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/Python.framework" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/Tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/Tk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/auto.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/clock.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/ascii.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/big5.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cns11643.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1250.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1251.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1252.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1253.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1254.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1255.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1256.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1257.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp1258.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp165.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp437.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp737.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp775.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp850.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp852.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp855.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp857.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp860.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp861.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp862.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp863.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp864.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp865.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp866.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp869.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp874.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp932.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp936.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp949.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/cp950.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/dingbats.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/ebcdic.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/euc-cn.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/euc-jp.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/euc-kr.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/gb12345.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/gb1988.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/gb2312-raw.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/gb2312.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso2022-jp.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso2022-kr.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso2022.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-1.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-10.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-11.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-13.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-14.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-15.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-16.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-2.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-3.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-4.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-5.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-6.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-7.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-8.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/iso8859-9.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/jis0201.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/jis0208.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/jis0212.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/koi8-r.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/koi8-ru.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/koi8-t.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/koi8-u.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/ksc5601.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macCentEuro.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macCroatian.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macCyrillic.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macDingbats.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macGreek.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macIceland.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macJapan.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macRoman.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macRomania.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macThai.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macTurkish.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/macUkraine.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/shiftjis.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/symbol.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/encoding/tis-620.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/history.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/http1.0/http.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/http1.0/pkgIndex.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/init.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/opt0.4/optparse.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/opt0.4/pkgIndex.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/package.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/parray.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/safe.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/tclAppInit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/tclDTrace.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/tclIndex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/tm.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tcl_data/word.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/bgerror.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/button.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/choosedir.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/clrpick.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/comdlg.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/console.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/dialog.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/entry.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/focus.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/fontchooser.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/iconlist.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/icons.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/logo.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/logo100.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/logo64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/logoLarge.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/logoMed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/pwrdLogo.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/pwrdLogo100.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/pwrdLogo150.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/pwrdLogo175.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/pwrdLogo200.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/pwrdLogo75.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/images/tai-ku.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/listbox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/megawidget.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/menu.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/mkpsenc.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgbox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/cs.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/da.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/de.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/el.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/en.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/en_gb.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/eo.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/es.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/fi.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/fr.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/hu.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/it.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/nl.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/pl.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/pt.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/ru.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/sv.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/msgs/zh_cn.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/obsolete.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/optMenu.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/palette.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/panedwindow.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/pkgIndex.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/safetk.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/scale.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/scrlbar.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/spinbox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/tclIndex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/tearoff.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/text.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/tk.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/tkAppInit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/tkfbox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/altTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/aquaTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/button.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/clamTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/classicTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/combobox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/cursors.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/defaults.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/entry.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/fonts.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/menubutton.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/notebook.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/panedwindow.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/progress.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/scale.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/scrollbar.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/sizegrip.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/spinbox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/treeview.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/ttk.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/utils.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/vistaTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/winTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/ttk/xpTheme.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/unsupported.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/_tk_data/xmfbox.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/icon-windowed.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/libcrypto.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/libssl.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/libzstd.1.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/python3.14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/sounds/capture.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/sounds/castle.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/sounds/check.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/sounds/game_end.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/sounds/move.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/sounds/promote.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/CITATION.cff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/Copying.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/Top CPU Contributors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/scripts/get_native_properties.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/scripts/net.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/benchmark.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/benchmark.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/bitboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/bitboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/engine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/engine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/evaluate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/evaluate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/history.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/incbin/UNLICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/incbin/incbin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/movegen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/movegen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/movepick.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/movepick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/features/full_threats.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/features/full_threats.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/features/half_ka_v2_hm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/features/half_ka_v2_hm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/layers/affine_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/layers/affine_transform_sparse_input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/layers/clipped_relu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/layers/sqr_clipped_relu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/network.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_accumulator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_accumulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_architecture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_feature_transformer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/nnue_misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/nnue/simd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/numa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/perft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/position.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/position.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/score.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/score.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/search.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/search.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/shm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/shm_linux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/syzygy/tbprobe.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/syzygy/tbprobe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/thread.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/thread_win32_osx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/timeman.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/timeman.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/tt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/tt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/tune.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/tune.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/uci.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/uci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/ucioption.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/src/ucioption.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/stockfish-macos-x86-64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Advanced-topics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Compiling-from-source.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Developers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Download-and-usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Governance-and-responsibilities.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Home.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Regression-Tests.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Stockfish-FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Terminology.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/UCI-&amp;-Commands.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/Useful-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/stockfish/wiki/_Footer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/tcl8/8.4/platform-1.0.19.tm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/tcl8/8.4/platform/shell-1.1.4.tm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/tcl8/8.5/msgcat-1.6.1.tm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/tcl8/8.5/tcltest-2.5.10.tm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/Resources/tcl8/8.6/http-2.9.8.tm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess.app/Contents/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess/_internal/stockfish/src/benchmark.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess/_internal/stockfish/src/bitboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess/_internal/stockfish/src/engine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess/_internal/stockfish/src/evaluate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess/_internal/stockfish/src/nnue/features/full_threats.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Chess/_internal/stockfish/src/nnue/features/half_ka_v2_hm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/src/benchmark.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/src/bitboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/src/engine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/src/evaluate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/src/nnue/features/full_threats.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/src/nnue/features/half_ka_v2_hm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stockfish/stockfish-macos-x86-64" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="39qYlvzsa4Hp5VEMiSNwrN93B3y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python..executor&quot;: &quot;Run&quot;,
+    &quot;Python.chess_game.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/engines" />
+      <recent name="$PROJECT_DIR$/.venv" />
+      <recent name="$PROJECT_DIR$/.venv/sounds" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ad26e0a-da26-48d9-981f-2028f86e42a6" name="Changes" comment="" />
+      <created>1771425225739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771425225739</updated>
+    </task>
+    <servers />
+  </component>
+</project>
