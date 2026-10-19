@@ -1,4 +1,36 @@
-dist/
-build/
+# --- Python ---
 __pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- macOS ---
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Stockfish binaries and build artifacts (build or download locally) ---
+stockfish/
+src/stockfish
+src/stockfish.exe
+src/*.o
+src/**/*.o
+src/**/*.d
+src/*.nnue
+src/nnue/*.nnue
+src/.depend

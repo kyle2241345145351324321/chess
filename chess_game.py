@@ -1,15 +1,25 @@
 import sys
 import os
+import glob
+import platform
+import shutil
 import tkinter as tk
 from tkinter import messagebox
 import chess
-import os
 import subprocess
 import chess.engine
 from dataclasses import dataclass
 from typing import Optional
 import time
 from datetime import datetime
+
+STOCKFISH_ENV_VAR = "STOCKFISH_PATH"
+
+
+class EngineNotFound(RuntimeError):
+    """No usable Stockfish binary could be located."""
+
+
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
@@ -21,9 +31,91 @@ def resource_path(relative_path):
 if getattr(sys, 'frozen', False):
     base_path = sys._MEIPASS
 else:
-    base_path = os.path.dirname(__file__)
+    base_path = os.path.dirname(os.path.abspath(__file__))
 
-engine_path = os.path.join(base_path, "stockfish", "stockfish-macos-x86-64")
+
+def _platform_engine_names():
+    """Stockfish binary names to look for, best match for this OS/arch first."""
+    machine = platform.machine().lower()
+    is_arm = machine in ("arm64", "aarch64")
+    if sys.platform == "darwin":
+        names = ["stockfish-macos-arm64", "stockfish-macos-x86-64"]
+        preferred = names[0] if is_arm else names[1]
+    elif os.name == "nt":
+        names = ["stockfish.exe", "stockfish-windows-x86-64-avx2.exe", "stockfish-windows-x86-64.exe"]
+        preferred = names[0]
+    else:
+        names = ["stockfish-linux-arm64", "stockfish-linux-x86-64"]
+        preferred = names[0] if is_arm else names[1]
+    return [preferred] + [n for n in names if n != preferred] + ["stockfish"]
+
+
+def _is_executable(path):
+    if not os.path.isfile(path):
+        return False
+    if os.name == "nt":
+        return True  # os.access does not report .exe correctly on Windows
+    return os.access(path, os.X_OK)
+
+
+def _engine_candidates():
+    """Yield plausible engine locations, most likely first."""
+    if getattr(sys, "frozen", False):
+        roots = [getattr(sys, "_MEIPASS", ""), os.path.dirname(sys.executable)]
+    else:
+        roots = [base_path, os.getcwd()]
+    for root in roots:
+        if not root:
+            continue
+        for sub in ("stockfish", "", "src"):
+            for name in _platform_engine_names():
+                yield os.path.join(root, sub, name)
+
+
+def find_engine():
+    """Locate a Stockfish binary.
+
+    Order: $STOCKFISH_PATH, a bundled/downloaded ``stockfish/`` folder (or
+    ``src/`` after ``make -C src build``), then ``stockfish`` on PATH.
+    Raises EngineNotFound with build/download instructions when nothing works.
+    """
+    env_path = os.environ.get(STOCKFISH_ENV_VAR)
+    if env_path:
+        env_path = os.path.expanduser(env_path)
+        if _is_executable(env_path):
+            return env_path
+        raise EngineNotFound(
+            f"{STOCKFISH_ENV_VAR} points to '{env_path}', which is not an executable file."
+        )
+
+    for candidate in _engine_candidates():
+        if _is_executable(candidate):
+            return candidate
+
+    search_dirs = {os.path.join(base_path, "stockfish"), base_path, os.path.join(base_path, "src")}
+    for directory in search_dirs:
+        for candidate in sorted(glob.glob(os.path.join(directory, "stockfish*"))):
+            if _is_executable(candidate):
+                return candidate
+
+    on_path = shutil.which("stockfish")
+    if on_path:
+        return on_path
+
+    raise EngineNotFound(
+        "Stockfish engine not found.\n\n"
+        "Fix it in one of these ways:\n"
+        "  1. Build from the bundled source:\n"
+        "       make -C src -j profile-build ARCH=x86-64\n"
+        "     (on Apple silicon use ARCH=apple-silicon)\n"
+        "  2. Download a release binary from\n"
+        "       https://github.com/official-stockfish/Stockfish/releases\n"
+        "     and put it in stockfish/ next to this script, e.g.\n"
+        f"       stockfish/{_platform_engine_names()[0]}\n"
+        "  3. Point STOCKFISH_PATH at an existing binary:\n"
+        "       STOCKFISH_PATH=/path/to/stockfish python3 chess_game.py\n\n"
+        "See RUNNING.md for details."
+    )
 
 
 @dataclass
@@ -201,9 +293,9 @@ class ChessGame:
 
         self.play_sound("move.wav")
 
-    def __init__(self, root):
+    def __init__(self, root, engine_path=None):
         self.stockfish = ChessGame.StockfishAI(
-            engine_path,
+            engine_path or find_engine(),
             elo=1500
         )
         self.root = root
@@ -1581,10 +1673,25 @@ class ChessGame:
 
 
 def main():
+    try:
+        engine_path = find_engine()
+    except EngineNotFound as exc:
+        message = str(exc)
+        print(message, file=sys.stderr)
+        try:
+            dialog_root = tk.Tk()
+            dialog_root.withdraw()
+            messagebox.showerror("Stockfish engine not found", message)
+            dialog_root.destroy()
+        except tk.TclError:
+            pass
+        return 1
+
     root = tk.Tk()
-    game = ChessGame(root)
+    game = ChessGame(root, engine_path=engine_path)
     root.mainloop()
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
